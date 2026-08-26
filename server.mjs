@@ -1,7 +1,7 @@
 import http from 'node:http';
 
 const PORT = 3840;
-const widgets = [{ id: 'w-1', title: 'Demo widget' }];
+const widgets = [{ id: 'w-1', title: 'Demo widget', description: 'Sandbox widget' }];
 
 http
   .createServer((req, res) => {
